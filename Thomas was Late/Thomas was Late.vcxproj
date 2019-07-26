@@ -156,11 +156,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="PlayableCharacter.cpp" />
+    <ClCompile Include="TextureHolder.cpp" />
     <ClCompile Include="TWL.cpp" />
+    <ClCompile Include="Update.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Zombie-Arena\Zombie Arena\TextureHolder.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="PlayableCharacter.h" />
+    <ClInclude Include="TextureHolder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,29 @@
-﻿  TextureHolder.cpp
+﻿  Draw.cpp
+  Engine.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:  'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:  'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:  'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         ]
+  Input.cpp
+  TextureHolder.cpp
   TWL.cpp
+  Update.cpp
   Generating Code...
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:  'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         ]
+  LINK : D:\Projects\CPP\Thomas was Late\x64\Debug\Thomas was Late.exe not found or not built by the last incremental link; performing full link
   Thomas was Late.vcxproj -> D:\Projects\CPP\Thomas was Late\x64\Debug\Thomas was Late.exe

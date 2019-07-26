@@ -1,8 +1,14 @@
-#include <iostream>
-#include <SFML/Graphics.hpp>
+#include "Engine.h"
 using namespace std;
 int main()
 {
-    cout << "Hello World!\n";
+	// Declare an instance of Engine
+	Engine engine;
+	// Start the engine VRRrrrrmmm
+	engine.run();
+	// Quit in the usual way when the engine is stopped
+	return 0;
 }
+
+
 

@@ -1,7 +1,6 @@
 #pragma once
-#include "TextureHolder.h"
 #include <SFML/Graphics.hpp>
-
+#include "TextureHolder.h"
 
 using namespace sf;
 
