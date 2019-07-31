@@ -1,5 +1,4 @@
-﻿  Bob.cpp
-  Draw.cpp
+﻿  Draw.cpp
   Engine.cpp
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:  'argument': conversion from 'unsigned int' to 'T', possible loss of data
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         with
@@ -17,42 +16,91 @@ D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:             T=float
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         ]
   Input.cpp
-  PlayableCharacter.cpp
+  LevelManager.cpp
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:  'argument': conversion from 'T' to 'unsigned int', possible loss of data
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         with
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         [
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:             T=float
 D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         ]
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(56,21): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(56,21): warning C4244:         with
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(56,21): warning C4244:         [
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(56,21): warning C4244:             T=float
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(56,21): warning C4244:         ]
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(61,22): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(61,22): warning C4244:         with
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(61,22): warning C4244:         [
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(61,22): warning C4244:             T=float
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(61,22): warning C4244:         ]
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(63,28): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(63,28): warning C4244:         with
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(63,28): warning C4244:         [
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(63,28): warning C4244:             T=float
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(63,28): warning C4244:         ]
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(66,21): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(66,21): warning C4244:         with
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(66,21): warning C4244:         [
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(66,21): warning C4244:             T=float
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(66,21): warning C4244:         ]
-  Thomas.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(63,28): warning C4267:  '=': conversion from 'size_t' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(63,28): warning C4267:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(63,28): warning C4267:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(63,28): warning C4267:             T=int
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(63,28): warning C4267:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(89,8): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(89,8): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(89,8): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(89,8): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(89,8): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(88,16): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(88,16): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(88,16): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(88,16): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(88,16): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(92,8): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(92,8): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(92,8): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(92,8): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(92,8): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(91,30): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(91,30): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(91,30): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(91,30): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(91,30): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(95,21): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(95,21): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(95,21): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(95,21): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(95,21): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(94,30): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(94,30): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(94,30): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(94,30): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(94,30): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(98,21): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(98,21): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(98,21): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(98,21): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(98,21): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(97,17): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(97,17): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(97,17): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(97,17): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(97,17): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(102,19): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(102,19): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(102,19): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(102,19): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(102,19): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,27): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,27): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,27): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,27): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,27): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,14): warning C4244:  'argument': conversion from 'const int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,14): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,14): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,14): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(104,14): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,35): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,35): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,35): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,35): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,35): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,14): warning C4244:  'argument': conversion from 'const int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,14): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,14): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,14): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(106,14): warning C4244:         ]
+  LoadLevel.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(108,27): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(108,27): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(108,27): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(108,27): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LevelManager.cpp(108,27): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LoadLevel.cpp(17,42): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
   TWL.cpp
   Update.cpp
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(68,27): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(68,27): warning C4244:         with
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(68,27): warning C4244:         [
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(68,27): warning C4244:             T=float
-D:\Projects\CPP\Thomas was Late\Thomas was Late\PlayableCharacter.cpp(68,27): warning C4244:         ]
-D:\Projects\CPP\Thomas was Late\Thomas was Late\Update.cpp(10,34): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
   Generating Code...
-D:\Projects\CPP\Thomas was Late\Thomas was Late\Update.cpp(11,33): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
-  LINK : D:\Projects\CPP\Thomas was Late\x64\Debug\Thomas was Late.exe not found or not built by the last incremental link; performing full link
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LoadLevel.cpp(18,39): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
   Thomas was Late.vcxproj -> D:\Projects\CPP\Thomas was Late\x64\Debug\Thomas was Late.exe
