@@ -62,7 +62,7 @@ private:
 	void draw();
 
 	// Load a new level
-	void loadLevel();
+	void loadLevel();	//The run function executes all the private functions	bool detectCollisions(PlayableCharacter& character);
 public:
 	// The Engine constructor
 	Engine();
