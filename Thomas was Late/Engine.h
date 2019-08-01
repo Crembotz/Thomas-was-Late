@@ -55,14 +55,14 @@ private:
 	// A pointer to a pointer
 	int** m_ArrayLevel = NULL;
 	// Texture for the level tiles
-	Texture m_TextureTiles;
+	Texture m_TextureTiles;	//The run function executes all the private functions	bool detectCollisions(PlayableCharacter& character);
 	// Private functions for internal use only
 	void input();
 	void update(float dtAsSeconds);
 	void draw();
 
 	// Load a new level
-	void loadLevel();	//The run function executes all the private functions	bool detectCollisions(PlayableCharacter& character);
+	void loadLevel();
 public:
 	// The Engine constructor
 	Engine();

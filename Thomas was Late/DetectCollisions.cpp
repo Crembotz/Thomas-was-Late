@@ -28,7 +28,7 @@ bool Engine::detectCollisions(PlayableCharacter& character)
 		endY = m_LM.getLevelSize().y;
 
 	// Has the character fallen out of the map?
-	FloatRect level(0, 0,
+	FloatRect level(0.0f, 0.0f,
 		m_LM.getLevelSize().x * TILE_SIZE,
 		m_LM.getLevelSize().y * TILE_SIZE);
 	if (!character.getPosition().intersects(level))
@@ -36,7 +36,6 @@ bool Engine::detectCollisions(PlayableCharacter& character)
 		// respawn the character
 		character.spawn(m_LM.getStartPosition(), GRAVITY);
 	}
-
 	// Loop through all the local blocks
 	for (int x = startX; x < endX; x++)
 	{
