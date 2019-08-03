@@ -4,6 +4,8 @@
 #include "Thomas.h"
 #include "Bob.h"
 #include "LevelManager.h"
+#include "SoundManager.h"
+#include "HUD.h"
 
 using namespace sf;
 
@@ -19,6 +21,15 @@ private:
 
 	// A class to manage all the levels
 	LevelManager m_LM;
+
+	//Create a SoundManager
+	SoundManager m_SM;
+
+	// The Hud 
+	Hud m_Hud;
+	int m_FramesSinceLastHUDUpdate = 0;
+	int m_TargetFramesPerHUDUpdate = 500;
+
 	const int TILE_SIZE = 50;
 	const int VERTS_IN_QUAD = 4;
 	// The force pushing the characters down
@@ -55,14 +66,19 @@ private:
 	// A pointer to a pointer
 	int** m_ArrayLevel = NULL;
 	// Texture for the level tiles
-	Texture m_TextureTiles;	//The run function executes all the private functions	bool detectCollisions(PlayableCharacter& character);
+	Texture m_TextureTiles;	//The run function executes all the private functions	
+	bool detectCollisions(PlayableCharacter& character);
 	// Private functions for internal use only
 	void input();
 	void update(float dtAsSeconds);
 	void draw();
 
 	// Load a new level
-	void loadLevel();
+	void loadLevel();	// Make a vector of the best places to emit sounds from
+	void populateEmitters(vector <Vector2f>& vSoundEmitters,
+		int** arrayLevel);
+	// A vector of Vector2f for the fire emitter locations
+	vector <Vector2f> m_FireEmitters;
 public:
 	// The Engine constructor
 	Engine();

@@ -73,6 +73,19 @@ int** LevelManager::nextLevel(VertexArray& rVaLevel)
 		//Add a new array into each array element
 		arrayLevel[i] = new int[m_LevelSize.x];
 	}
+	// Loop through the file and store all the values in the 2d array
+	string row;
+	int y = 0;
+	while (inputFile >> row)
+	{
+		for (int x = 0; x < row.length(); x++) {
+			const char val = row[x];
+			arrayLevel[y][x] = atoi(&val);
+		}
+		y++;
+	}
+	// close the file
+	inputFile.close();
 	// What type of primitive are we using?
 	rVaLevel.setPrimitiveType(Quads);
 	// Set the size of the vertex array

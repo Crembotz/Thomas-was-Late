@@ -1,36 +1,120 @@
 ﻿  DetectCollisions.cpp
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(4,14): error C2039:  'detectCollisions': is not a member of 'Engine'
-D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.h(10): message :  see declaration of 'Engine'
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(11,16): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(12,17): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(14,42): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(16,41): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(18,40): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(20,39): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(25,14): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(26,10): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(27,14): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(28,10): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,3): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,27): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,3): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,27): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(31,17): error C2664:  'sf::Rect<float>::Rect(sf::Rect<float> &&)': cannot convert argument 1 from 'float' to 'const sf::Vector2<float> &'
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,37): message :  Reason: cannot convert from 'float' to 'const sf::Vector2<float>'
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,37): message :  No constructor could take the source type, or constructor overload resolution was ambiguous
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(37,19): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(37,44): error C2065:  'GRAVITY': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(45,21): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(46,20): error C2065:  'TILE_SIZE': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(50,8): error C2065:  'm_ArrayLevel': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(50,35): error C2065:  'm_ArrayLevel': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(54,22): error C2065:  'm_LM': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(54,47): error C2065:  'GRAVITY': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(56,10): error C2065:  'm_ArrayLevel': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(67,8): error C2065:  'm_ArrayLevel': undeclared identifier
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(11,16): warning C4244:  '=': conversion from 'const int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(11,16): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(11,16): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(11,16): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(11,16): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(12,17): warning C4244:  '=': conversion from 'const int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(12,17): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(12,17): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(12,17): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(12,17): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,25): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,25): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,25): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,25): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(33,25): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,25): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,25): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,25): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,25): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(32,25): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(37,44): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(45,19): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(45,19): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(45,19): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(45,19): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(45,19): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(46,18): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(46,18): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(46,18): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(46,18): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(46,18): warning C4244:         ]
+  Draw.cpp
+  Engine.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(54,47): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:  'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,84): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:  'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(7,49): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:  'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,52): warning C4244:         ]
+  HUD.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:  'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\Engine.cpp(8,38): warning C4244:         ]
+  Input.cpp
+  LoadLevel.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\HUD.cpp(26,38): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\HUD.cpp(26,38): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\HUD.cpp(26,38): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\HUD.cpp(26,38): warning C4244:             T=unsigned int
+D:\Projects\CPP\Thomas was Late\Thomas was Late\HUD.cpp(26,38): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LoadLevel.cpp(19,42): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
+  PopulateEmitters.cpp
+D:\Projects\CPP\Thomas was Late\Thomas was Late\LoadLevel.cpp(20,39): warning C4244:  'argument': conversion from 'const int' to 'float', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(26,6): warning C4244:  'argument': conversion from 'const int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(26,6): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(26,6): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(26,6): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(26,6): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(25,6): warning C4244:  'argument': conversion from 'const int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(25,6): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(25,6): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(25,6): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(25,6): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(24,8): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(24,8): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(24,8): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(24,8): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(24,8): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(23,22): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(23,22): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(23,22): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(23,22): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(23,22): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,33): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,33): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,33): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,33): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,33): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,18): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,18): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,18): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,18): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(30,18): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(34,31): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(34,31): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(34,31): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(34,31): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(34,31): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(35,30): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(35,30): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(35,30): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(35,30): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(35,30): warning C4244:         ]
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(36,40): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(36,40): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(36,40): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(36,40): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(36,40): warning C4244:         ]
+  TWL.cpp
   Update.cpp
-D:\Projects\CPP\Thomas was Late\Thomas was Late\DetectCollisions.cpp(89,8): error C2065:  'm_ArrayLevel': undeclared identifier
-D:\Projects\CPP\Thomas was Late\Thomas was Late\Update.cpp(20,7): error C3861:  'detectCollisions': identifier not found
-D:\Projects\CPP\Thomas was Late\Thomas was Late\Update.cpp(20,37): error C3861:  'detectCollisions': identifier not found
   Generating Code...
-D:\Projects\CPP\Thomas was Late\Thomas was Late\Update.cpp(31,4): error C3861:  'detectCollisions': identifier not found
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(37,41): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(37,41): warning C4244:         with
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(37,41): warning C4244:         [
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(37,41): warning C4244:             T=float
+D:\Projects\CPP\Thomas was Late\Thomas was Late\PopulateEmitters.cpp(37,41): warning C4244:         ]
+  Thomas was Late.vcxproj -> D:\Projects\CPP\Thomas was Late\x64\Debug\Thomas was Late.exe
